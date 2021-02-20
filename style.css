@@ -1,0 +1,16 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: aliceblue;
+}
+
+canvas {
+  display:flex;
+}
+
+p {
+  font-size: 60px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: aliceblue;
+}
