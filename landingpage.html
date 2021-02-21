@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Tic Tac Toe</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <script src="libraries/p5.min.js"></script>
+    <script src="libraries/p5.sound.min.js"></script>    
+
+  </head>
+
+  <body>
+    <!-- Some sort of title -->
+    <h1 id='heading'><b>Unbeatable Tic Tac Toe</b></h1>
+    <h2>Are You</h2>
+    <!-- 2 buttons. One makes the player go first the other makes the computer go first. They refence a function in sketch.js that changes playernumb and links to index.html -->
+    <div style="padding-left:29%; display: inline;">
+      <a href="index_p1.html"><img src="player1button.png" alt="Player 1" onclick="getstartingplayer(1)"></a>
+      <h3>or</h3>
+    </div>
+  
+    <div style="padding-left: 200px; display: inline;">
+    <a href="index_p2.html"><img src="player2button.png" alt="Player 2" onclick="getstartingplayer(2)"></a>
+    </div>
+
+  </body>
+</html>
