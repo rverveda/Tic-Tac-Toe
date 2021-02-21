@@ -8,6 +8,31 @@ canvas {
   display:flex;
 }
 
+h1 {
+  font-size: 120px;
+  font-family: fantasy;
+  font-style: oblique;
+  margin-top: 200px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 60px;
+  font-family: fantasy;
+  font-style: oblique;
+  text-align: center;
+}
+
+h3 {
+  font-size: 60px;
+  font-family: fantasy;
+  font-style: oblique;
+  display: inline;
+  margin-top: 15px;
+  padding-left: 70px;
+  position: absolute;
+}
+
 p {
   font-size: 60px;
   margin-top: 10px;
