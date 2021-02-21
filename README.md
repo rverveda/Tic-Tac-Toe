@@ -19,6 +19,6 @@ sketch.js is the file that contains the GUI aspects needed to play Tic Tac Toe i
 
 consolettt.js allows you to play Tic Tac Toe in the console. Works with the Mozilla Firefox console. Uncomment out this script from the index.html. But honestly why use this when you can just use the version with a GUI.
 
-index.html is the html used by sketch.js. There are 2 versions for the same reason outlined for having 2 sketch.js files. The only difference is the version of sketch.js that is used by the html.
+index_p#.html is the html used by sketch.js. There are 2 versions for the same reason outlined for having 2 sketch.js files. The only difference is the version of sketch.js that is used by the html.
 
-landing page.html is just that, a landing page. This is where the user can select which player number they want to be.
+index.html is the landing page. This is where the user can select which player number they want to be.
