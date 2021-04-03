@@ -8,8 +8,8 @@
 
     <link rel="stylesheet" type="text/css" href="style.css">
 
-    <script src="p5.min.js"></script>
-    <script src="p5.sound.min.js"></script>    
+    <script src="libraries/p5.min.js"></script>
+    <script src="libraries/p5.sound.min.js"></script>    
 
   </head>
 
@@ -18,14 +18,24 @@
     <h1 id='heading'><b>Unbeatable Tic Tac Toe</b></h1>
     <h2>Are You</h2>
     <!-- 2 buttons. One makes the player go first the other makes the computer go first. They refence a function in sketch.js that changes playernumb and links to index.html -->
-    <div style="padding-left:29%; display: inline;">
+    <div id="playerbuttons">
+      <script>
+        let clientwidth = document.getElementById("heading").clientWidth;
+        let button_Lmarg = Math.floor(clientwidth/2) - 400;
+        button_Lmarg = '' + button_Lmarg + 'px';
+        console.log(button_Lmarg);
+        let buttonmargain = document.getElementById("playerbuttons");
+        buttonmargain.style.marginLeft = button_Lmarg; 
+      </script>
       <a href="index_p1.html"><img src="player1button.png" alt="Player 1"></a>
       <h3>or</h3>
+
+      <div style="padding-left: 200px; display: inline;">
+        <a href="index_p2.html"><img src="player2button.png" alt="Player 2"></a>
+      </div>
     </div>
   
-    <div style="padding-left: 200px; display: inline;">
-    <a href="index_p2.html"><img src="player2button.png" alt="Player 2"></a>
-    </div>
+    
 
   </body>
 </html>

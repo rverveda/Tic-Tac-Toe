@@ -29,7 +29,7 @@ h3 {
   font-style: oblique;
   display: inline;
   margin-top: 15px;
-  padding-left: 70px;
+  padding-left: 65px;
   position: absolute;
 }
 
@@ -38,4 +38,8 @@ p {
   margin-top: 10px;
   margin-bottom: 10px;
   background-color: aliceblue;
+}
+
+#playerbuttons {
+  display: inline;
 }
